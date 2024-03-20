@@ -1,40 +1,26 @@
 # oXo Chat : based on Express and Socket.io
 
-<p>This is a paragraph written in HTML.</p>
+This is a paragraph written in Markdown.
 
-<h2>Features</h2>
-<ul>
-  <li>Group chat</li>
-  <li>Previous chats deleted when refreshed</li>
-</ul>
+## Features
+- Group chat
+- Previous chats deleted when refreshed
 
-<h3>Installation</h3>
-<ol>
-  <li>
-    use command:
-    <div>```bash 
-      git clone https://github.com/sen-Saptarshi/oXoChat
-      ```</div>
-  </li>
-  <li>
-    U should have node js installed if not installed then go to:
-    <a href="https://nodejs.org/en">Node.js</a>
-  </li>
-  <li>
-    All necessary packages will be installed using
-    <div>```bash 
-        npm install 
-        ```</div>
-  </li>
-  <li>
-    use this to install <a href="https://expressjs.com/">Express</a> and
-    <a href="https://socket.io/">Socket.io</a>
-    <div>```bash 
-      npm i express 
-      ```</div>
-    <div>```bash 
-      npm i socket.io 
-      ```</div>
-  </li>
-  <li>open <b>'server.js'</b> and run the file. Your app will be visible in the <a href="http://localhost:3000/"><b>Port: 3000</b></a></li>
-</ol>
+### Installation
+1. Use the command:
+    ```bash 
+    git clone https://github.com/sen-Saptarshi/oXoChat
+    ```
+2. You should have Node.js installed. If not installed, download it from [Node.js](https://nodejs.org/en).
+3. Install all necessary packages using:
+    ```bash 
+    npm install 
+    ```
+4. Install [Express](https://expressjs.com/) and [Socket.io](https://socket.io/) using:
+    ```bash 
+    npm install express
+    ```
+    ```bash 
+    npm install socket.io 
+    ```
+5. Open `server.js` and run the file. Your app will be visible at [http://localhost:3000/](http://localhost:3000/).
